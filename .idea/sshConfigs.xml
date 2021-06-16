@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="185.224.139.235" id="4b7bd19b-ccc3-4705-9ff1-94573008ab45" port="22" customName="vps:fluencyonlife.com" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="185.224.139.235" id="2ccfa4da-4024-44da-b9e6-1bbfd2c4e313" port="22" customName="vps:fluencyonlife.com" nameFormat="CUSTOM" username="root" />
+    </configs>
+  </component>
+</project>

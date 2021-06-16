@@ -1,0 +1,13 @@
+{
+  "require": {
+    "swiftmailer/swiftmailer": "^6.2",
+    "hashids/hashids": "^4.0",
+    "gumlet/php-image-resize": "^1.9",
+    "phpunit/phpunit": "8.5.0",
+    "tracy/tracy": "^2.7",
+    "pecee/simple-router": "4.2.0.6",
+    "google/apiclient": "^2.0"
+
+
+  }
+}

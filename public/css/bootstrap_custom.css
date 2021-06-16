@@ -1,0 +1,79 @@
+/* Sometimes we like different style then the default framework presents */
+/*
+classes that override Bootstrap defaults should be put here
+ */
+
+/* BUTTONS
+.btn-outline-primary, .btn-btn-outline-primary.dropdown-toggle, .btn-link, .nav-link{
+    color: #814241!important;
+    border-color: #cb8670!important;
+}
+#dropdownMenu2 {
+    color: #cb8670!important;
+    background-color: #fefefe!important;
+    border-color: #cb8670!important;
+}
+.btn-outline-primary:hover, .btn-btn-outline-primary.dropdown-toggle:hover, #dropdownMenu2:hover, .btn-link:hover, .nav-link:hover {
+    background-color: #814241!important;
+    color: #fefefe!important;
+}
+.btn-outline-success {
+    background-color: #cb8670;
+    color: #fefefe!important;
+    border-color: #cb8670!important;
+}
+.btn-outline-success:hover {
+    background-color: #fefefe!important;
+    color: #cb8670!important;
+    border-color: #cb8670!important;
+}
+*/
+/***********************************************************************/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .fa-3x {font-size:  2em!important;}
+
+    .fa {display: block!important;}
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+
+    }
+
+    tr { margin-bottom:15px; }
+    .images img {margin-top:15px!important;}
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        width: 100%;
+
+
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+}
+
+

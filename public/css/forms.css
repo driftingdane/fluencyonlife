@@ -1,0 +1,27 @@
+.profile_form_bio {
+    height: 12.5rem!important;
+}
+.card h2 {
+    margin-bottom: 0.5em!important;
+}
+
+
+.carousel {width: 100%!important;}
+
+.icon-form p {
+    overflow: hidden;
+    margin-bottom:0;
+}
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+.overlay-mf {
+    background-color: #0078ff;
+}
